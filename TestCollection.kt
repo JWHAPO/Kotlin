@@ -21,7 +21,7 @@ fun main(args: Array<String>) {
     //위와 다르게 리스트 중 어느 한 값으 변경 할 수 있다.
     mutableList[0] = "AA"
 
-    val immutableMap : Map<String, Int> = mapOf("A" to 1, "B" to 2)
+    val immutableMap : Map<String, Int> = mapOf("A" to 1, "B" to 2) // "KEY" to VALUE => Pair("KEY",VALUE)
     //아래와 같이 값 변경 불가
     //immutableList["C"] = 3
 
